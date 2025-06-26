@@ -34,3 +34,11 @@
   
 ![](/images/008.png)
 </details>
+<!-- 9 -->
+<details>
+<summary>
+<a href="/Labs/009 - Inter-VLAN Routing (ROAS) Troubleshooting 2">009 - Inter-VLAN Routing (ROAS) Troubleshooting 2</a>
+</summary>
+  
+![](/images/009.png)
+</details>
