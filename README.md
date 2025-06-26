@@ -3,7 +3,7 @@
 
 <details>
 <summary>
-L005 - VLAN Configuration <a href="/Labs/005 - VLAN Configuration">005 - VLAN Configuration</a>
+<a href="/Labs/005 - VLAN Configuration">005 - VLAN Configuration</a>
 </summary>
 
 ![Lab 5 diagram](/images/005.png)
