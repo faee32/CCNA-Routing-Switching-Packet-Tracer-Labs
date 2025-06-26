@@ -32,5 +32,5 @@
 <a href="/Labs/008 - Inter-VLAN Routing (ROAS) Troubleshooting 1">008 - Inter-VLAN Routing (ROAS) Troubleshooting 1</a>
 </summary>
   
-![](/images/08.png)
+![](/images/008.png)
 </details>
