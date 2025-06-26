@@ -1,0 +1,13 @@
+notes:
+R1:
+en
+show running-config
+dot1q is 14 not 24!
+
+R1:
+en
+conf t
+default interface g0/0.24
+int g0/0.24
+encapsulation dot1q 24
+ip add 10.0.0.129 255.255.255.128
