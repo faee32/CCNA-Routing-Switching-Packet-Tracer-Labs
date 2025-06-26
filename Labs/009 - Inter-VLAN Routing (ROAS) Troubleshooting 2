@@ -1,0 +1,32 @@
+notes:
+all devices can't ping each other!
+R1:
+show ip int brief
+GigabitEthernet0/0.13  10.0.0.11       YES manual up                    up 
+GigabitEthernet0/0.24  10.0.0.129      YES manual up                    up 
+we should make sure the default gateways are correct on each PC
+SW1:
+show vlan brief
+shows vlan 12 on fa0/1 instead of vlan 13!
+SW2:
+interface GigabitEthernet0/1 is in access mode instead of trunk
+PC1:
+wrong gateway
+PC3:
+wrong gateway
+
+config:
+change PC1,PC2 default gateway to 10.0.0.11
+SW1:
+en
+conf t
+default int f0/1
+int f0/1
+switchport mode access
+switchport access vlan 13
+SW2:
+en
+conf t
+default int g0/1
+int g0/1
+switchport mode trunk
