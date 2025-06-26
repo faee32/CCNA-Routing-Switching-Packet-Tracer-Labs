@@ -21,7 +21,7 @@
 
 <details>
 <summary>L005 - VLAN Configuration</summary>
-[Lab5](../Labs/first)
+[Lab5](/Labs/first)
 </details>
 
 <details>
