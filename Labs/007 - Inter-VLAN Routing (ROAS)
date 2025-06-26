@@ -1,0 +1,35 @@
+SW1:
+en
+conf t
+int f0/1
+switchport mode access
+switchport access vlan 13
+int f0/2
+switchport mode access
+switchport access vlan 24
+int range g0/1-2
+switchport mode trunk
+
+SW2:
+en
+conf t
+int f0/1
+switchport mode access
+switchport access vlan 13
+int f0/2
+switchport mode access
+switchport access vlan 24
+int g0/1
+switchport mode trunk
+
+R1:
+en
+conf t
+int g0/0
+no sh
+int g0/0.13
+encapsulation dot1q 13
+ip add 10.0.0.1 255.255.255.128
+int g0/0.24
+encapsulation dot1q 24
+ip add 10.0.0.129 255.255.255.128
