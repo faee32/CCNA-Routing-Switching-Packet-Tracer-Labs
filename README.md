@@ -2,7 +2,7 @@
 
 <details>
 <summary>L005 - VLAN Configuration</summary>
-[Lab5](CCNA_LABS/Labs/first)
+[Lab5](../Labs/first)
 </details>
 
 <details>
