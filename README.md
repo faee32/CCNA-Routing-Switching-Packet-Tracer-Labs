@@ -17,6 +17,6 @@
 L005 - VLAN Configuration <a href="/Labs/first">Lab5</a>
 </summary>
 
-[Lab5](/Labs/first)  <!-- Markdown link; works here -->
+[Lab5](/images/005)  <!-- Markdown link; works here -->
 
 </details>
