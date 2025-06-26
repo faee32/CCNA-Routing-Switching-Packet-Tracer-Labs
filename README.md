@@ -1,8 +1,8 @@
 # CCNA_LABS
 
 <details>
-<summary>Lab5 `code`</summary>
-[Lab5](Labs/005 - VLAN Configuration)
+<summary>L005 - VLAN Configuration</summary>
+[Lab5](Labs/)
 </details>
 <details>
 <summary>Click to toggle contents of `code`</summary>
