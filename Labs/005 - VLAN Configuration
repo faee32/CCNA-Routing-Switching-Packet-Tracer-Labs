@@ -1,0 +1,23 @@
+SW1:
+en
+conf t
+int f0/2
+switchport mode access
+switchport access vlan 1
+int f0/3
+switchport mode access
+switchport access vlan 2
+int f0/1
+switchport mode trunk
+
+SW2:
+en
+conf t
+int f0/2
+switchport mode access
+switchport access vlan 1
+int f0/3
+switchport mode access
+switchport access vlan 2
+int f0/1
+switchport mode trunk
