@@ -21,8 +21,8 @@
 <!-- 7 -->
 <details>
 <summary>
-<a href="/Labs/005 - VLAN Configuration">005 - VLAN Configuration</a>
+<a href="/Labs/007 - Inter-VLAN Routing (ROAS)">007 - Inter-VLAN Routing (ROAS)</a>
 </summary>
   
-![](/images/005.png)
+![](/images/007.png)
 </details>
