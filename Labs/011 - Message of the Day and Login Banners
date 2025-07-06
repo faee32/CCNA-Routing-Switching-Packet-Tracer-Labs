@@ -1,0 +1,10 @@
+PC1>Terminal:
+en
+conf t
+username ccna secret Cisco
+username ccnp secret Cisco
+line console 0
+login local
+exit
+banner motd &Welcome to Packet Tracer&
+banner login &Authorized users only!&
