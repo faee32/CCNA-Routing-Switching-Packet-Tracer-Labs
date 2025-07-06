@@ -1,0 +1,26 @@
+R1:
+en
+show cdp neigbors
+show controllers s2/0
+conf t
+int s2/0
+clock rate 64000
+do sh cdp
+no cdp run
+do show cdp neighbors
+cdp run
+do show cdp neighbors
+
+R2:
+show cdp neigbors
+show controllers s2/0
+
+SW1, SW2:
+en
+conf t
+int range f0/3-4
+no cdp enable
+
+notes:
+1. R1 is DCE, R1 is DTE.
+5. Not intentally.
