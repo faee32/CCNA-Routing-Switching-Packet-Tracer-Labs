@@ -1,4 +1,4 @@
-# CCNA_LABS
+# CCNA Routing & Switching Packet Tracer Labs
 <!-- comment -->
 
 <!-- 5 -->
@@ -57,4 +57,12 @@
 </summary>
   
 ![](/images/011.png)
+</details>
+<!-- 12 -->
+<details>
+<summary>
+<a href="/Labs/012 - Naming VLANs">012 - Naming VLANs</a>
+</summary>
+  
+![](/images/012.png)
 </details>
