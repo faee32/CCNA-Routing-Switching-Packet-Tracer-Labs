@@ -42,3 +42,11 @@
   
 ![](/images/009.png)
 </details>
+<!-- 10 -->
+<details>
+<summary>
+<a href="/Labs/010 - Local Username-Password Database">009 - 010 - Local Username-Password Database</a>
+</summary>
+  
+![](/images/010.png)
+</details>
