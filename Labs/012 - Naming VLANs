@@ -1,0 +1,35 @@
+SW1:
+en
+conf t
+hostname SW1
+vlan 13
+name Management
+vlan 24
+name Engineering
+int f0/2
+switchport mode access
+switchport access vlan 13
+int f0/3
+switchport mode access
+switchport access vlan 24
+int f0/1
+switchport mode trunk
+do wr
+
+SW2:
+en
+conf t
+hostname SW1
+vlan 13
+name Management
+vlan 24
+name Engineering
+int f0/2
+switchport mode access
+switchport access vlan 13
+int f0/3
+switchport mode access
+switchport access vlan 24
+int f0/1
+switchport mode trunk
+do wr
