@@ -50,3 +50,11 @@
   
 ![](/images/010.png)
 </details>
+<!-- 11 -->
+<details>
+<summary>
+<a href="/Labs/011 - Message of the Day and Login Banners">011 - Message of the Day and Login Banners</a>
+</summary>
+  
+![](/images/011.png)
+</details>
