@@ -82,3 +82,20 @@
   
 ![](/images/014.png)
 </details>
+
+<!-- 15 -->
+<details>
+<summary>
+<a href="/Labs/015 - System Configuration Dialog">015 - System Configuration Dialog</a>
+</summary>
+  
+![](/images/015.png)
+</details>
+<!-- 16 -->
+<details>
+<summary>
+<a href="/Labs/016 - Loopback Interface Configuration">016 - Loopback Interface Configuration</a>
+</summary>
+  
+![](/images/016.png)
+</details>
