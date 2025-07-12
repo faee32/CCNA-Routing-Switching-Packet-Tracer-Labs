@@ -1,0 +1,23 @@
+R1:
+en
+conf t
+int g0/0
+ip add 192.168.1.1 255.255.255.0
+no sh
+int lo0
+ip add 1.1.1.1 255.255.255.255
+do ping 1.1.1.1
+do ping 2.2.2.2
+no int lo0
+
+R2:
+en
+conf t
+int g0/0
+ip add 192.168.1.2 255.255.255.0
+no sh
+int lo0
+ip add 2.2.2.2 255.255.255.255
+do ping 2.2.2.2
+do ping 1.1.1.1
+no int lo0
