@@ -1,0 +1,32 @@
+R1:
+yes
+no
+yes
+R1
+Cisco
+CCNA
+CCENT
+no
+no
+yes
+192.168.1.1
+255.255.255.0
+no
+no
+2
+
+SW1:
+yes
+no
+yes
+SW1
+Cisco
+CCNA
+CCENT
+no
+yes
+192.168.1.2
+255.255.255.0
+no (to all remaining interfaces)
+2
+ping 192.168.1.1
