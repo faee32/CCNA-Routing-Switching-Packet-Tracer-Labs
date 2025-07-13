@@ -1,0 +1,26 @@
+SW1:
+en
+show mac address-table
+show mac address-table
+conf t
+int f0/2
+switchport mode access
+switchport port-security
+do sh port-sec
+switchport port-security maximum 1
+do sh port-sec
+switchport port-security violation shutdown
+switchport port-security mac-address sticky
+
+SW2:
+en
+show mac address-table
+conf t
+int f0/2
+switchport mode access
+switchport port-security
+do sh port-sec
+switchport port-security maximum 1
+do sh port-sec
+switchport port-security violation shutdown
+switchport port-security mac-address sticky
