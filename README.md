@@ -91,6 +91,7 @@
   
 ![](/images/015.png)
 </details>
+
 <!-- 16 -->
 <details>
 <summary>
@@ -99,3 +100,22 @@
   
 ![](/images/016.png)
 </details>
+
+<!-- 17 -->
+<details>
+<summary>
+<a href="/Labs/017 - Port Security (Part 1)">017 - Port Security (Part 1)</a>
+</summary>
+  
+![](/images/017.png)
+</details>
+
+<!-- 18 -->
+<details>
+<summary>
+<a href="/Labs/018 - Port Security (Part 2)">018 - Port Security (Part 2)</a>
+</summary>
+  
+![](/images/018.png)
+</details>
+
