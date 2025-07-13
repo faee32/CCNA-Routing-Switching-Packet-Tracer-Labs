@@ -1,0 +1,31 @@
+SW1:
+en
+conf t
+int f0/2
+switchport mode access
+switchport port-security
+
+do sh port-sec add
+do show runn
+do wr
+do reload
+
+en
+show port-security add
+conf t
+int f0/2
+switchport port-security mac-address sticky
+do sh port-sec add
+do show running-config | begin 0/2
+do wr
+do reload
+
+en
+show port-security add
+
+SW2:
+en
+conf t
+int f0/2
+switchport mode access
+switchport port-security
