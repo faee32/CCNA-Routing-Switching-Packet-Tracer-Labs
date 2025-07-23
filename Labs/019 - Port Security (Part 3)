@@ -1,0 +1,19 @@
+sw1:
+en
+show mac-address-table
+conf t
+int f0/2
+switchport mode access
+switchport port-security
+switchport port-security mac-address 0002.16e2.2193
+
+sw2:
+en
+show mac address-table
+conf t
+int f0/2
+switchport mode access
+switchport port-security
+switchport port-secuirty mac-address 0007.ec28.0631
+sh
+no sh
