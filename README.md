@@ -119,3 +119,12 @@
 ![](/images/018.png)
 </details>
 
+<!-- 19 -->
+<details>
+<summary>
+<a href="/Labs/019 - Port Security (Part 3)">019 - Port Security (Part 3)</a>
+</summary>
+  
+![](/images/019.png)
+</details>
+
